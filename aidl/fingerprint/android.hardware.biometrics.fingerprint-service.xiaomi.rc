@@ -4,5 +4,5 @@ service vendor.fingerprint-default /vendor/bin/hw/android.hardware.biometrics.fi
     # /data is mounted.
     class late_start
     user system
-    group system input uhid
+    group system input uhid drmpc diag
     shutdown critical
